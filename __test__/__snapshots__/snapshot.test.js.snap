@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trabajando con snapshot snapshot 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "name": "Ricky",
+  "species": "Human",
+  "status": "Alive",
+}
+`;
+
+exports[`Trabajando con snapshot snapshot con excepciones 1`] = `
+Object {
+  "date": 2020-05-28T02:18:30.242Z,
+  "id": 18,
+  "lastname": "Tangarife",
+  "name": "Carlos",
+}
+`;
+
+exports[`Trabajando con snapshot snapshot sin excepciones 1`] = `
+Object {
+  "date": Any<Date>,
+  "id": Any<Number>,
+  "lastname": "Tangarife",
+  "name": "Carlos",
+}
+`;
